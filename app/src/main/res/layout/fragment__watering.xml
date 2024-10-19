@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5FFFA"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/img_2" />
+            <EditText
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="40dp"
+                android:text="급수 기준습도"
+                android:textSize="10pt"
+                android:textColor="#1DB100"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/scan_humidity"
+            android:textColorHint="#ABD1A9"
+            android:paddingLeft="15dp"
+            android:hint="기준 습도를 입력하세요 (단위:%)"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/edge2" />
+
+        <EditText
+            android:id="@+id/print_humidity"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:enabled="false"
+            android:paddingLeft="10dp"
+            android:text="추천 습도:                                              %"
+            android:textSize="8pt"
+            android:textColor="#05A89D"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/edge3"/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/img_11" />
+            <EditText
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="40dp"
+                android:text="1회 급수량"
+                android:textSize="10pt"
+                android:textColor="#1DB100"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/scan_amount"
+            android:textColorHint="#ABD1A9"
+            android:paddingLeft="15dp"
+            android:hint="1회 급수량을 입력하세요 (단위:mL)"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/edge2" />
+
+        <EditText
+            android:id="@+id/print_amount"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:enabled="false"
+            android:paddingLeft="10dp"
+            android:text="추천 급수량:                                        mL"
+            android:textSize="8pt"
+            android:textColor="#05A89D"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/edge3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="25dp">
+
+            <Button
+                android:id="@+id/watering_immediately"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="6dp"
+                android:layout_width="153dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="바로 급수하기"
+                android:textStyle="bold"
+                android:textColor="#015A59"
+                android:drawableBottom="@drawable/button_image1"
+                android:background="@drawable/edge3"
+                />
+
+            <Button
+                android:id="@+id/save_watering_data"
+                android:layout_width="153dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="기준습도/급수량 저장"
+                android:textStyle="bold"
+                android:textColor="#015A59"
+                android:drawableBottom="@drawable/button_image2"
+                android:background="@drawable/edge3"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

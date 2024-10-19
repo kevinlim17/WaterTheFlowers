@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/button_image1.xml" value="0.2328125" />
+        <entry key="app/src/main/res/drawable/button_image2.xml" value="0.2328125" />
+        <entry key="app/src/main/res/drawable/button_image3.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/drawable/button_image4.xml" value="0.2361111111111111" />
+        <entry key="app/src/main/res/drawable/button_save.xml" value="0.2712962962962963" />
+        <entry key="app/src/main/res/drawable/edge.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/drawable/edge2.xml" value="0.21197916666666666" />
+        <entry key="app/src/main/res/drawable/edge3.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/layout/activity_intro.xml" value="0.1484375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/blank_fragment.xml" value="0.2033514492753623" />
+        <entry key="app/src/main/res/layout/fragment__select_plant.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment__watering.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.171875" />
+        <entry key="app/src/main/res/layout/row_listview.xml" value="0.17300724637681159" />
+        <entry key="app/src/main/res/layout/toolbar_main.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.245709945797341" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
